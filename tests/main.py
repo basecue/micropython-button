@@ -33,6 +33,11 @@ def top_button_on_press():
     print('top_button_on_press')
 
 
+@top_button.on_long_press
+def top_button_on_long_press():
+    print('top_button_on_long_press')
+
+
 @top_button.on_release
 def top_button_on_release():
     print('top_button_on_release')
@@ -46,6 +51,11 @@ def right_button_on_press():
 @right_button.on_release
 def right_button_on_release():
     print('right_button_on_release')
+
+
+@right_button.on_long_press
+def right_button_on_long_press():
+    print('right_button_on_long_press')
 
 
 @bottom_button.on_press
